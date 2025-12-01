@@ -1,0 +1,14 @@
+.mapDropdown {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  min-width: 120px;
+  background-color: #fff;
+}
+
+@media (max-width: 600px) {
+  .mapDropdown {
+    width: 100%;
+  }
+}

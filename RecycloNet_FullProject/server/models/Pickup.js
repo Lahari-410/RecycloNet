@@ -1,8 +1,10 @@
 const mongoose = require('mongoose');
-const PickupSchema = new mongoose.Schema({
+
+const pickupSchema = new mongoose.Schema({
   item: String,
   location: String,
   photo: String,
-  status: { type: String, default: 'Pending' }
+  status: { type: String, default: 'Pending' },
 });
-module.exports = mongoose.model('Pickup', PickupSchema);
+
+module.exports = mongoose.model('Pickup', pickupSchema);
